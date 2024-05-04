@@ -1,11 +1,18 @@
 import React from 'react'
+import { Header, Hero, Services, About, Testimonials, Newsletter, Footer } from './components'
 
 const App = () => {
   return (
     <div>
-      <h1></h1>
+      <Header></Header>
+      <Hero></Hero>
+      <Services></Services>
+      <About></About>
+      <Testimonials></Testimonials>
+      <Newsletter></Newsletter>
+      <Footer></Footer>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
