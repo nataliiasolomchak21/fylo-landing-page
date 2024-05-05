@@ -3,14 +3,14 @@ import { Header, Hero, Services, About, Testimonials, Newsletter, Footer } from 
 
 const App = () => {
   return (
-    <div>
-      <Header></Header>
-      <Hero></Hero>
-      <Services></Services>
-      <About></About>
-      <Testimonials></Testimonials>
-      <Newsletter></Newsletter>
-      <Footer></Footer>
+    <div className='bg-white'>
+      <Header />
+      <Hero />     
+      <Services />
+      <About />      
+      <Testimonials />
+      <Newsletter />
+      <Footer />
     </div>
   );
 };
