@@ -1,13 +1,17 @@
 import React from 'react'
+import { services } from '../constants'
 
 const Services = () => {
   return (
-    <section>
-      <div>
-        <img src="" alt="" />
-        <h2>Access your files, anywhere</h2>
-        <p>The ability to use a smartphone, tablet, or computer to access your account means your 
-files follow you everywhere.</p>
+    <section className='p-9'>
+      <div className='container mx-auto '>
+      {services.map((service) => (
+        <div key={service.id} className='flex flex-col justify-center items-center text-center mt-8'>
+        <img src={service.icon} alt={service.title} width={70} height={70}/>
+        <h2 className='text-lg mt-4 font-raleway text-white font-fontWeight700'>{service.title}</h2>
+        <p className='text-sm mt-2 font-openSans text-white font-fontWeight400'>{service.content}</p>
+        </div>
+      ))}
       </div>
     </section>
   )
