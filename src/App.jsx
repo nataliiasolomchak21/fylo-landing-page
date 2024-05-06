@@ -3,9 +3,9 @@ import { Header, Hero, Services, About, Testimonials, Newsletter, Footer } from 
 
 const App = () => {
   return (
-    <div className='bg-white'>
-      <Header />
-      <Hero />     
+    <div className='bg-secondaryMainBg'>
+      <Header className="bg-primaryIntroEmail" />
+      <Hero className="bg-primaryIntroEmail" />     
       <Services />
       <About />      
       <Testimonials />

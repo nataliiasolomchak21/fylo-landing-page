@@ -11,6 +11,7 @@ import iconPhone from './icon-phone.svg'
 import iconSecurity from './icon-security.svg'
 import illustrationIntro from './illustration-intro.png'
 import illustrationProductive from './illustration-stay-productive.png'
+import logo from './logo.svg'
 import profile1 from './profile-1.jpg'
 import profile2 from './profile-2.jpg'
 import profile3 from './profile-3.jpg'
@@ -30,6 +31,7 @@ export {
     iconSecurity,
     illustrationIntro,
     illustrationProductive,
+    logo,
     profile1,
     profile2,
     profile3

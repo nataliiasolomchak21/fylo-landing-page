@@ -12,3 +12,18 @@
   outline: none;
   scroll-behavior: smooth;
 }
+
+.get-started-btn {
+  width: 12rem;
+  height: 3rem;
+}
+
+@media (min-width: 1440px) {
+  nav {
+    padding: 4rem;
+  }
+
+  .logo {
+    width: 7rem;
+  }
+}
