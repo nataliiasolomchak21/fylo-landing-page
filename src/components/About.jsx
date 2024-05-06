@@ -4,7 +4,7 @@ import { illustrationProductive, iconArrow } from '../assets'
 const About = () => {
   return (
     <section className='p-9'>
-      <div className='flex flex-col'>
+      <div className='flex xs:flex-col lg:flex-row'>
       <img src={illustrationProductive} alt="productive people" className='mx-auto' width={300} height={300} />
       <article className=''>
         <h3 className='text-white font-raleway font-fontWeight700 text-lg text-center mt-8'>Stay productive, wherever you are</h3>
