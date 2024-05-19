@@ -132,4 +132,22 @@ export const contactInfo = [
     },
   ];
 
+  export const footerIcons = [
+    {
+      id: "facebook",
+      title: "fa-facebook-f",
+      link: "https://www.facebook.com/"
+    },
+    {
+      id: "twitter",
+      title: "fa-twitter",
+      link: "https://x.com/?lang=en"
+    },
+    {
+      id: "instagram",
+      title: "fa-instagram",
+      link: "https://www.instagram.com/"
+    },
+  ]
+
 
