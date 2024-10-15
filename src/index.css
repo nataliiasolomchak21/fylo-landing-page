@@ -41,6 +41,10 @@
   align-items: center;
 }
 
+.icon-wrapper:hover {
+  border: 2px solid hsl(176, 68%, 64%);
+}
+
 .icon-link {
   display: block;
   text-decoration: none;
@@ -58,5 +62,9 @@
 
   .logo {
     width: 7rem;
+  }
+
+  .input {
+    width: 25rem;
   }
 }

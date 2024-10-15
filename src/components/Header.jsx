@@ -10,7 +10,7 @@ const Header = () => {
         <ul className="flex">
           {navLinks.map((link) => (
             <li key={link.id} className="mx-3 text-white font-raleway">
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a href={`#${link.id}`} className="hover:text-white hover:underline hover:font-bold">{link.title}</a>
             </li>
           ))}
         </ul>
